@@ -1,0 +1,1 @@
+In this lab, I have implemented a method for solving a group of linear equations using MPI. I have also completed a write up comparing the runtime of my program with different number of processes and file size.
