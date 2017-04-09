@@ -1,1 +1,2 @@
-This program generates prime number using OMP. A detailed write up compares serial prime generator program versus the parallelize version. 
+This program generates prime number using OMP. I also have a write up which compares serial prime generator program versus the parallelize version. 
+It also discusses speed up behavior with different number of threads.
