@@ -3,16 +3,17 @@ Given a an array of x elements of unsigned int, with random numbers from 0 to x,
 
 # Analysis
 
-
 ## Number of elements vs sequential and parallel execution time
 | Number of Elements  | Sequential | CUDA (256 Threads)  | CUDA (512 Threads)  |
-| ------------- | ------------- | ------------- | -------------- | 
+| ------------- | ------------- | ------------- | -------------- |
 |      1000       | 0.003 | 0.183 | 0.186 |
 |    10000  | 0.002 | 0.208 | 0.192 |
 | 100000 | 	0.004 | 0.199 |	0.170 |
 | 1000000 | 	0.026 | 	0.258 | 	0.190 |
 | 10000000 | 0.225 | 0.447 | 	0.434 |
 | 100000000 |	2.298 | 	2.655 | 2.723 |
+
+![cuda](/readme/cuda.jpg)
 
 
 #### Analysis of block and grid sizes/dimensions
