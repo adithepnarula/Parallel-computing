@@ -13,7 +13,7 @@ Given a an array of x elements of unsigned int, with random numbers from 0 to x,
 | 10000000 | 0.225 | 0.447 | 	0.434 |
 | 100000000 |	2.298 | 	2.655 | 2.723 |
 
-![cuda](/readme/cuda.png)
+![cuda](cuda.png)
 
 
 #### Analysis of block and grid sizes/dimensions
