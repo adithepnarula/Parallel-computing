@@ -4,9 +4,9 @@ Given a an array of x elements of unsigned int, with random numbers from 0 to x,
 # Analysis
 
 
-## Number of elements vs sequential and parallel execution time 
+## Number of elements vs sequential and parallel execution time
 | Number of Elements  | Sequential | CUDA (256 Threads)  | CUDA (512 Threads)  |
-| ------------- | ------------- | -------------
+| ------------- | ------------- | ------------- | -------------- | 
 |      1000       | 0.003 | 0.183 | 0.186 |
 |    10000  | 0.002 | 0.208 | 0.192 |
 | 100000 | 	0.004 | 0.199 |	0.170 |
