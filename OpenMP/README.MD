@@ -45,7 +45,7 @@ Note: speed up is calculated by taking time of thread 1 and dividing it by other
 
 The table shows the result we expect. This result is important because it shows that this inner loop is what's giving us the speed up of our program. The speed up you get because of the inner for loop is almost exactly the same as the speed up you get from your program. Therefore, I can improve my program in the future even more if I can find ways to make this for loop more parallel friendly. The fact that we see such a huge slow down for inner loop completion time when we have 100 threads but a speed up with 5 threads shows that there is not enough work for all 50 threads to do efficiently, thus the cost of having this many threads outweighs the benefits gained from them. The optimal number of threads for N=1000 is around 5 threads for this algorithm.
 
-INSERT IMAGE 2
+![omp2](omp2.png)
 
 Unlike N=1,000, we see a speed up for 2, 5, 10, a peak at 20, 25 and a sharp drop for 50 and 100 threads. The table below shows the average time spent completing the (a) for block for different number of threads for N=10,000.
 
