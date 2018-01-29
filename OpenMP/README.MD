@@ -4,7 +4,7 @@ I wrote a program to generate prime numbers from 2 to N and tested scalability a
 
 # Analysis
 
-INSERT IMAGE 1
+![omp1](omp1.png)
 
 Note that I wrote a sufficiently fast enough code and parallelized it to get speed up. I did not use the most efficient serial algorithm, which is the sieve's prime number algorithm. I tried to parallelize the sieve's algorithm at first but did not get any speed up, even for 100,000 or a million numbers. After reviewing sieve's algorithm carefully, I noticed that it would be much more difficult to get a speed up from the algorithm when compared to mine. The following two blocks of code explains why.
 
@@ -32,7 +32,7 @@ Now, onwards to the first graph, N=1000. We see a speed up for 2, 5 and 10 threa
 
 Table that shows the average time spent completing the (a) for block with different number of threads for N=1,000.
 
-## Number of threads vs time and speed up
+#### Number of threads vs time and speed up
 | Number of Threads | Time | Speed Up  |
 | ------------- | ------------- | ------------- |
 |  1  | 0.000013 | 1 |
@@ -49,7 +49,7 @@ INSERT IMAGE 2
 
 Unlike N=1,000, we see a speed up for 2, 5, 10, a peak at 20, 25 and a sharp drop for 50 and 100 threads. The table below shows the average time spent completing the (a) for block for different number of threads for N=10,000.
 
-## Number of threads vs time and speed up
+#### Number of threads vs time and speed up
 | Number of Threads | Time | Speed Up  |
 | ------------- | ------------- | ------------- |
 |  1  | 0.000127 | 1 |
