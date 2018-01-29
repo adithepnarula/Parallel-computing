@@ -1,2 +1,2 @@
 # Parallel-computing
-OpenMPI, OpenMP, and CUDA parallel computing projects
+Open MPI, OpenMP, and CUDA parallel computing projects. I implemented a method to solve a set of linear equations in Open MPI, a program to generate prime numbers in OpenMP, and a program to find a maximum number from in CUDA. Each program is accompanied with a detailed report analyzing the execution time as a function of number of processes, threads and problem sizes (for MPI and OMP) and block and grid dimensions (for CUDA). 
